@@ -96,7 +96,7 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
-    var MY_VIDEO_DURATION = 45.0;
+    var MY_VIDEO_DURATION = 60.0;
     
     var cameraConfig = {
         gold_max_duration: MY_VIDEO_DURATION,
@@ -111,8 +111,8 @@ if (ua.includes("Locket")) {
         telephoto: true,
         srgb: true,
         lanczos: true,
-        quality_mbps: 0.9,
-        qualityMbps: 0.9
+        quality_mbps: 0.2,
+        qualityMbps: 0.2
     };
 
     var cameraRollConfig = {
@@ -129,8 +129,8 @@ if (ua.includes("Locket")) {
         max_file_size: 104857600,       // Cho phép file tối đa 100MB từ thư viện
         max_upload_bytes: 104857600,   // Nới lỏng giới hạn dung lượng tải lên
         max_size_bytes: 104857600,
-        quality_mbps: 0.9,
-        qualityMbps: 0.9,
+        quality_mbps: 0.2,
+        qualityMbps: 0.2,
         flash_button: true
     };
 
