@@ -50,7 +50,7 @@ if (ua.includes("Locket")) {
             tag: "LOCKET GOLD",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: " bạn đang chạy config 45s ",
+            title: " bạn đang chạy config 4+5s ",
             feature_set: [
                 {
                     title: "✨✨✨✨✨",
